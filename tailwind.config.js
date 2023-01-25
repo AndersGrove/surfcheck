@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+
+      backgroundImage: {
+        'search': "url('../img/search.svg')",
+      }
+
+
+    },
   },
   plugins: [],
 };
