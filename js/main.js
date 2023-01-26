@@ -13,3 +13,13 @@ function initSlider() {
   });
 
 }
+
+
+
+// Initialise Compass
+function initCompass() {
+
+  var target = document.getElementById("compass");
+
+
+}

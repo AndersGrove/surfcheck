@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <link href="./css/main.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./css/flickity.min.css" media="screen">
+
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+
+    <!-- Header (START) -->
+    <div class="container max-w-md mt-10 border rounded-lg mx-auto p-6 flex justify-between items-center">
+      <div>
+        <div class="space-y-1 p-1 cursor-pointer aa">
+          <span class="block w-5 h-0.5 bg-gray-600"></span>
+          <span class="block w-5 h-0.5 bg-gray-600"></span>
+          <span class="block w-3 h-0.5 bg-gray-600"></span>
+        </div>
+      </div>
+      <div class="cursor-pointer">
+        <img src="./img/avatar.svg" alt="Avatar" />
+      </div>
+    </div>
+    <!-- Header (END) -->
+
+    <!-- Search (START) -->
+    <div class="container max-w-md mt-10 border rounded-lg mx-auto p-6 flex">
+      <div class="w-full space-y-4">
+        <h3 class="w-full text-2xl font-bold">Check your spot</h3>
+        <input class="w-full border block p-3 bg-search bg-no-repeat bg-[center_left_1rem] indent-8" type="search" name="Search" id="search" placeholder="Search a surf spot">
+      </div>
+    </div>
+    <!-- Search (END) -->
+
+    <!-- Favourites (START)-->
+    <div class="container max-w-md mt-10 border rounded-lg mx-auto p-6 flex flex-col space-y-4">
+      <div class="w-full flex justify-between items-center">
+        <h3 class="w-full text-lg font-bold">Favourites</h3>
+        <a href="" class="underline">Edit</a>
+      </div>
+      <div>
+        <div class="main-carousel">
+          <div class="carousel-cell mr-3">
+            <div class="h-36 w-28 border rounded-lg bg-slate-200 flex flex-col justify-end">
+              <div class="bg-slate-600 p-2 rounded-b-lg text-center text-white ">
+                Big Bay
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-cell mr-3">
+            <div class="h-36 w-28 border rounded-lg bg-slate-200 flex flex-col justify-end">
+              <div class="bg-slate-600 p-2 rounded-b-lg text-center text-white ">
+                Granger Bay
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-cell mr-3">
+            <div class="h-36 w-28 border rounded-lg bg-slate-200 flex flex-col justify-end">
+              <div class="bg-slate-600 p-2 rounded-b-lg text-center text-white ">
+                Muizenberg
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-cell mr-3">
+            <div class="h-36 w-28 border rounded-lg bg-slate-200 flex flex-col justify-end">
+              <div class="bg-slate-600 p-2 rounded-b-lg text-center text-white ">
+                Scarborough
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- Favourites (END)-->
+
+    <!-- Compass (START) -->
+    <div class="container max-w-md mt-10 border rounded-lg mx-auto p-6 flex">
+      <div class="w-full space-y-4 flex justify-center px-7 pt-12 pb-12 bg-slate-100">
+
+
+        <div id="compass" class="w-full border h-72 w-72 rounded-full relative bg-surf-blue shadow-[inset_0px_0px_40px_0px_#164a74]">
+
+          <div class="absolute top-0 left-1/2 -top-1 -translate-x-1/2 -translate-y-full">N</div>
+          <div class="absolute -bottom-6 left-1/2 -translate-x-1/2 ">S</div>
+          <div class="absolute -left-6 top-1/2 -translate-y-1/2">W</div>
+          <div class="absolute -right-4 top-1/2 -translate-y-1/2">E</div>
+
+          <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10" style="left: 210px; top: 10px; transform: rotate(45deg);">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="50px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
+              <g id="Layer_2">
+                  <circle fill-opacity="0" cx="24.99" cy="24.946" r="24.946"/>
+              </g>
+              <g id="Layer_1_1_">
+                  <polygon fill="#efe106" points="39.961,5.008 24.969,49.893 10.037,5.008 25.038,11.242 "/>
+              </g>
+            </svg>
+          </div>
+
+          <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10" style="left: 10px;top: 220px;transform: rotate(-135deg);">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="50px" height="50px" viewBox="0 0 50 50" enable-background="new 0 0 50 50" xml:space="preserve">
+              <g id="Layer_2">
+                  <circle fill-opacity="0" cx="24.99" cy="24.946" r="24.946"/>
+              </g>
+              <g id="Layer_1_1_">
+                  <polygon fill="#00ff01" points="39.961,5.008 24.969,49.893 10.037,5.008 25.038,11.242 "/>
+              </g>
+            </svg>
+          </div>
+
+
+          <div class="relative -left-1 h-full w-full">
+            <img src="./img/compass.svg" alt="compass">
+          </div>
+
+
+
+          </div>
+
+      </div>
+    </div>
+    <!-- Compass (END) -->
+
+
+
+    <script src="./js/flickity.pkgd.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
+
+
+<!-- url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSI1MHB4IiBoZWlnaHQ9IjUwcHgiIHZpZXdCb3g9IjAgMCA1MCA1MCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNTAgNTAiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnIGlkPSJMYXllcl8yIj48Y2lyY2xlIGZpbGwtb3BhY2l0eT0iMCIgY3g9IjI0Ljk5IiBjeT0iMjQuOTQ2IiByPSIyNC45NDYiLz48L2c+PGcgaWQ9IkxheWVyXzFfMV8iPjxwb2x5Z29uIGZpbGw9IiMxQTFBMUEiIHBvaW50cz0iMzkuOTYxLDUuMDA4IDI0Ljk2OSw0OS44OTMgMTAuMDM3LDUuMDA4IDI1LjAzOCwxMS4yNDIgIi8+PC9nPjwvc3ZnPg==") -->
+x
